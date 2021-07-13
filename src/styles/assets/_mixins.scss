@@ -34,3 +34,9 @@
     @content;
   }
 }
+
+// Px to vw based on the main resolution $base-vw
+@function vw($px-vw, $base-vw: 1440) {
+  $value: ($px-vw * 100) / $base-vw;
+  @return $value + vw;
+}

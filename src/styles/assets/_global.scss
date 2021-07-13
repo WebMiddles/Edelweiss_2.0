@@ -1,0 +1,12 @@
+body {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: $text-primary;
+  font-size: 18px;
+  line-height: 130%;
+
+  @include media("xl", false) {
+    font-size: vw(18);
+  }
+}

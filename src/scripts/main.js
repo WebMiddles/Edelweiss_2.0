@@ -8,11 +8,17 @@
 //= libraries/fullpage.extensions.min.js
 
 // test
-if (document.body.classList.contains('index')) {
-  new fullpage('#fullpage', {
-    autoScrolling: true,
-    scrollHorizontally: true,
-  });
+// if (document.body.classList.contains('index')) {
+//   new fullpage('#fullpage', {
+//     autoScrolling: true,
+//     scrollHorizontally: true,
+//   });
 
-  fullpage_api.setAllowScrolling(true, 'left, right');
-}
+//   fullpage_api.setAllowScrolling(true, 'left, right');
+// }
+
+// Libraries
+
+// Components
+
+// Pages

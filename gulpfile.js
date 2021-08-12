@@ -16,7 +16,7 @@ const imagemin = require('gulp-imagemin');
 // Compile .pug files (pretty .html on the output)
 function pugCompileDev(done) {
   gulp
-    .src('src/*.pug')
+    .src('src/views/pages/*.pug')
     .pipe(plumber())
     .pipe(
       pug({
@@ -32,7 +32,7 @@ function pugCompileDev(done) {
 // Compile .pug files for production
 function pugCompileProd(done) {
   gulp
-    .src('src/*.pug')
+    .src('src/views/pages/*.pug')
     .pipe(plumber())
     .pipe(
       pug({
